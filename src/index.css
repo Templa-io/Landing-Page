@@ -1,13 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+img{
+  max-width: 100%;
+
+}
+
+ul{
+  list-style-type:none;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+  background-color: aliceblue;
+}
+
+.Links{
+margin:0 10px;
+text-decoration: none;
+color:black;
+
+}
+.showcase{
+  background:url('./assets/tower.jpg') no-repeat center/cover;
+  height:300px;
+}
+.overlay{
+  display:flex;
+  padding-left:150px;
+  flex-direction:column;
+  align-items:left;
+  justify-content: center;
+  height:300px;
+  color:#fff;
+  background-color:rgba(0,0, 0,0.7)
+}
+h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.grid{
+  padding:150px;
+
+}
+h3{
+
+  font-size:30px;
+  color:black;
+  padding-bottom: 20px;
+}
+.grid-items {
+  background-color:#fff; 
+  display:grid;
+  gap: 80px;
+  grid-template-columns: repeat(3, 1fr);
+   margin:20px 0;
+   border-radius:10px;
+   box-sizing: 10px;
+
+}
+h4{
+  padding:10 0px;
+  font-size: 22px;
+  line-height:1.8;
+}
+
+p{
+  line-height: 1.8;
+}
+
+.footer{
+  margin:0 10px;
+  padding-bottom: 200px;
+  text-decoration: none;
+  color:#fff;
+ 
 }
