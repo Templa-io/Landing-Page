@@ -7,8 +7,10 @@ const Showcase = () => {
         <div className="overlay">
           <h1>We Crush
              Minimal 
-             Designs</h1>
-          <p>For big data collection, research analysis</p>
+             Designs.</h1>
+          <p>MONOCHROME is a creative agency based in Chicago.We developed the Genesis Framework and build 
+            mobile-optimized themes for WordPress
+          </p>
         </div>
       </section>
     </>
