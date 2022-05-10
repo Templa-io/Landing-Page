@@ -3,7 +3,7 @@ import React from 'react'
 const Showcase = () => {
   return (
     <>
-      <section className="showcase showcase-expand-lg">
+      <section className="showcase showcase-expand-lg w-100">
         <div className="overlay">
           <h1>We Crush
              Minimal 
