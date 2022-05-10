@@ -59,6 +59,12 @@ h3{
    box-sizing: 10px;
 
 }
+button{
+  padding:10px;
+  background-color: black;
+  color: #fff;
+}
+
 h4{
   padding:10 0px;
   font-size: 22px;
