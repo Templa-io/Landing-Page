@@ -9,9 +9,9 @@ const Showcase = () => {
              Minimal 
              Designs.</h1>
            
-          <p>MONOCHROME is a creative agency based in Chicago.We developed the Genesis Framework and build 
+          <span>MONOCHROME is a creative agency based in Chicago.We developed the Genesis Framework and build 
             mobile-optimized themes for WordPress
-          </p>
+          </span>
         </div>
       </section>
     </>

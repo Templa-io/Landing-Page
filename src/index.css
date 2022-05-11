@@ -22,7 +22,8 @@ body {
 
 .showcase{
   background:url('./assets/tower.jpg') no-repeat center/cover;
-  height:300px;
+  height:400px;
+ 
 }
 .overlay{
   display:flex;
@@ -30,14 +31,20 @@ body {
   flex-direction:column;
   align-items:left;
   justify-content: center;
-  height:300px;
+  height:400px;
   color:#fff;
   background-color:rgba(0,0, 0,0.7)
 }
 h1{
-  font-size: 40px;
+  font-size: 20px;
   padding-bottom: 20px;
+  width:300px;
   
+}
+
+span{
+  font-size:15px;
+  width: 400px;
 }
 .grid{
   padding:150px;
@@ -67,12 +74,13 @@ button{
 
 h4{
   padding:10 0px;
-  font-size: 22px;
+  font-size: 40px;
   line-height:1.8;
 }
 
 p{
   line-height: 1.8;
+
 }
 
 .footer{
