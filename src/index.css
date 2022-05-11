@@ -23,6 +23,7 @@ body {
 .showcase{
   background:url('./assets/tower.jpg') no-repeat center/cover;
   height:400px;
+  padding-top:0;
  
 }
 .overlay{
@@ -36,14 +37,15 @@ body {
   background-color:rgba(0,0, 0,0.7)
 }
 h1{
-  font-size: 20px;
-  padding-bottom: 20px;
+  font-size: 10px;
+  padding-bottom: 0px;
   width:300px;
   
 }
 
 span{
-  font-size:15px;
+  padding-top: 0;
+  font-size:17px;
   width: 400px;
 }
 .grid{
